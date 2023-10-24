@@ -1,10 +1,9 @@
 import pygame
+import sys
 
-
-class Hero():
+class Hero:
     def __init__(self, screen):
-        '''инициалиция главного героя - космического корабля'''
-        self.image = pygame.image.load("images/hero.png")
+        self.image = pygame.image.load('img/hero.png')
         self.rect = self.image.get_rect()
         self.screen = screen
         self.screen_rect = screen.get_rect()
@@ -13,3 +12,7 @@ class Hero():
 
     def output_hero(self):
         self.screen.blit(self.image, self.rect)
+
+
+
+    
