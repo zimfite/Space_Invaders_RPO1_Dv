@@ -1,5 +1,4 @@
 import pygame
-import sys
 
 class Hero:
     def __init__(self, screen):
