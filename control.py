@@ -23,7 +23,7 @@ def events(hero, screen, bullets):
 
 
 def update(screen, hero, bullets, enemys):
-    screen.blit(pygame.image.load(os.path.join('img/space.jpg')), (-100, 100))
+    screen.blit(pygame.image.load(os.path.join('img/o.jpg')), (-100, 100))
     for bullet in bullets.sprites():
         bullet.draw_bullet()
     hero.output_hero()
