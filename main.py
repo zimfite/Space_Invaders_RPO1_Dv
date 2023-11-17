@@ -18,7 +18,7 @@ class Bullet(pygame.sprite.Sprite):
 def start_game(): 
     pygame.init() 
     screen = pygame.display.set_mode((600, 600)) 
-    pygame.display.set_caption("Самая лучшая игра для новогоднего настроения") 
+    pygame.display.set_caption("Самая лучшая игра") 
  
     background = pygame.image.load("img/o.jpg") 
  
