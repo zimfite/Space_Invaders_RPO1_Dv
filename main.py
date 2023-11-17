@@ -47,7 +47,7 @@ def start_game():
     score = 0  # Initialize the score variable 
  
     def spawn_enemy(): 
-        num_enemies = random.randint(1, 5)  # Случайное количество врагов от 1 до 5 
+        num_enemies = random.randint(1, 2)  # Случайное количество врагов от 1 до 2 
         for _ in range(num_enemies): 
             x = random.randint(0, SCREEN_WIDTH - ENEMY_WIDTH) 
             y = random.randint(-ENEMY_HEIGHT, 0) 
