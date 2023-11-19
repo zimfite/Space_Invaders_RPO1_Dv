@@ -22,7 +22,7 @@ def start_game():
     screen = pygame.display.set_mode((600, 600)) 
     pygame.display.set_caption("Самая лучшая игра") 
      
-    background = pygame.image.load("img/o.jpeg") 
+    background = pygame.image.load("img/o.jpg") 
      
     hero = Hero(screen) 
     bullets=[] 
