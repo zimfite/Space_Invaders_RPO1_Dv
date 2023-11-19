@@ -1,7 +1,6 @@
 import pygame
 class Hero:
   def __init__(self, screen):
-    '''инициализация главного героя'''
     self.image = pygame.image.load("img/hero.png")
     self.rect = self.image.get_rect()
     self.screen = screen
